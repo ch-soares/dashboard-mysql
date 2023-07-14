@@ -1,11 +1,7 @@
 import streamlit as st
-from settings import nome, frutas
+from base import tecnologia
 
-pagina_selecionada = st.sidebar.selectbox('Nome', nome())
-pagina2 = st.sidebar.radio('Fruta', frutas())
+tecnologias = st.sidebar.selectbox('Tecnologias', tecnologia())
 
-if pagina_selecionada:
-    st.text(nome()[pagina_selecionada])
-
-if pagina2:
-    st.title(frutas()[pagina2])
+if tecnologias:
+    st.title(tecnologia()[tecnologias])

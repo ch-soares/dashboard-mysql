@@ -41,7 +41,6 @@ markdown-it-py
 MarkupSafe
 matplotlib
 mdurl
-mysqlclient
 numpy
 oauth2client
 oauthlib
